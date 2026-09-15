@@ -73,7 +73,9 @@ In e-commerce, customer returns cause heavy financial losses due to reverse ship
 * 🔴 **The Issue**: `product_price` ranged from ₹19.50 up to ₹64,878.67 with extreme positive skewness and long right tails.
 * 🟡 **The Risk**: Large outlier values disproportionately swayed linear model weights and distorted gradient updates.
 * 🟢 **The Solution**: Applied a logarithmic transformation:
-  $$\text{log\_price} = \log(1 + \text{product\_price})$$
+  ```python
+  log_price = np.log1p(product_price)
+  ```
   This produced a clean, near-normal distribution that improved model stability.
 
 ---
@@ -87,7 +89,9 @@ In e-commerce, customer returns cause heavy financial losses due to reverse ship
   * Normalized text with `.str.strip().str.title()`.
   * Dropped `order_id` to prevent memorization.
   * Combined support touchpoints into a unified feature:
-    $$\text{total\_support\_contacts} = \text{customer\_support\_calls} + \text{chat\_interactions}$$
+    ```python
+    total_support_contacts = customer_support_calls + chat_interactions
+    ```
 
 ---
 
