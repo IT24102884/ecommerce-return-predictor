@@ -1,0 +1,165 @@
+{
+  "features": {
+    "numerical": [
+      "discount_percent",
+      "product_rating",
+      "review_count",
+      "defect_rate",
+      "seller_rating",
+      "quantity",
+      "shipping_distance_km",
+      "product_page_views",
+      "total_support_contacts",
+      "log_price"
+    ],
+    "categorical": [
+      "product_category",
+      "sub_category",
+      "brand",
+      "fulfillment_type",
+      "payment_method"
+    ],
+    "binary": [
+      "fragile_item",
+      "warranty_available",
+      "delayed_delivery",
+      "wishlist_before_purchase"
+    ]
+  },
+  "categorical_options": {
+    "product_category": [
+      "Beauty",
+      "Books",
+      "Electronics",
+      "Fashion",
+      "Home",
+      "Sports",
+      "Toys"
+    ],
+    "sub_category": [
+      "Academic",
+      "Accessories",
+      "Action Figures",
+      "Audio",
+      "Decor",
+      "Educational",
+      "Fiction",
+      "Fitness",
+      "Footwear",
+      "Furniture",
+      "Haircare",
+      "Kids",
+      "Kitchen",
+      "Laptops",
+      "Makeup",
+      "Men",
+      "Mobiles",
+      "Non-Fiction",
+      "Outdoor",
+      "Outdoor Play",
+      "Skincare",
+      "Team Sports",
+      "Women"
+    ],
+    "brand": [
+      "Brand_1",
+      "Brand_10",
+      "Brand_11",
+      "Brand_12",
+      "Brand_13",
+      "Brand_14",
+      "Brand_15",
+      "Brand_16",
+      "Brand_17",
+      "Brand_18",
+      "Brand_19",
+      "Brand_2",
+      "Brand_20",
+      "Brand_21",
+      "Brand_22",
+      "Brand_23",
+      "Brand_24",
+      "Brand_25",
+      "Brand_26",
+      "Brand_27",
+      "Brand_28",
+      "Brand_29",
+      "Brand_3",
+      "Brand_30",
+      "Brand_4",
+      "Brand_5",
+      "Brand_6",
+      "Brand_7",
+      "Brand_8",
+      "Brand_9"
+    ],
+    "fulfillment_type": [
+      "Marketplace Fulfilled",
+      "Seller Fulfilled"
+    ],
+    "payment_method": [
+      "Cod",
+      "Credit Card",
+      "Debit Card",
+      "Upi",
+      "Wallet"
+    ]
+  },
+  "numerical_ranges": {
+    "discount_percent": {
+      "min": 0.0,
+      "max": 67.0,
+      "median": 33.5
+    },
+    "product_rating": {
+      "min": 1.6,
+      "max": 5.0,
+      "median": 3.9
+    },
+    "review_count": {
+      "min": 24.0,
+      "max": 116.0,
+      "median": 69.0
+    },
+    "defect_rate": {
+      "min": 0.0,
+      "max": 0.35,
+      "median": 0.05
+    },
+    "seller_rating": {
+      "min": 2.2,
+      "max": 5.0,
+      "median": 4.1
+    },
+    "quantity": {
+      "min": 1.0,
+      "max": 5.0,
+      "median": 3.0
+    },
+    "shipping_distance_km": {
+      "min": 5.1,
+      "max": 1425.0,
+      "median": 714.1
+    },
+    "product_page_views": {
+      "min": 1.0,
+      "max": 28.0,
+      "median": 12.0
+    },
+    "total_support_contacts": {
+      "min": 0.0,
+      "max": 6.0,
+      "median": 1.0
+    },
+    "log_price": {
+      "min": 3.02,
+      "max": 11.08,
+      "median": 6.39
+    }
+  },
+  "selected_model": "Logistic Regression",
+  "target_names": [
+    "Not Returned",
+    "Returned"
+  ]
+}
