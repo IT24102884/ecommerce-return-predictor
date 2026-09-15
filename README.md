@@ -218,7 +218,7 @@ jupyter notebook NoteBook/Product_Return_Prediction.ipynb
 
 ### Step 4: Launch Web App
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 Open `http://localhost:8501` in your browser.
 
