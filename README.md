@@ -8,6 +8,10 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-ff4b4b?logo=streamlit)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
+<br/>
+
+![E-Commerce Return Predictor Showcase](assets/showcase.png)
+
 ---
 
 ## 📑 Table of Contents
